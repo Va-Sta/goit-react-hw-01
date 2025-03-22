@@ -1,0 +1,35 @@
+.table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.headRow {
+  background-color: black;
+}
+
+.headName {
+  color: white;
+  border: 1px solid black;
+  width: 33%;
+}
+
+.row {
+  background-color: #fff;
+}
+
+.row:nth-child(even) {
+  background-color: lightgray;
+}
+
+.cell {
+  border: 1px solid black;
+}
+
+.cellFirst {
+  border: 1px solid black;
+  text-align: left;
+  vertical-align: middle;
+  padding-left: 40px;
+}
